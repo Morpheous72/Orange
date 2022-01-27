@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3dbeff;
+}
+#nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0 8px;
+
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+#nav ul li button{
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    color: black;
+}
+
+header{
+    height: 600px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+header div h1{
+    text-align: center;
+    margin-top: 80px;
+}
+.presentation{
+    display: flex;
+    align-items: center;
+}
+.txt1{
+    
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.txt2{
+    
+    background-image: url("../images/desktop/image-photography.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
